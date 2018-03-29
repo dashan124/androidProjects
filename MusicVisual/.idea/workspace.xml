@@ -49,16 +49,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="16" column="5" lean-forward="false" selection-start-line="16" selection-start-column="5" selection-end-line="16" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="SettingsFragment.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/com/visualizerpreferences/SettingsFragment.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -110,13 +100,20 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="3" column="54" lean-forward="false" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+            <state relative-caret-position="377">
+              <caret line="22" column="53" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
               <folding>
                 <element signature="e#209#237#0" expanded="true" />
                 <element signature="e#261#286#0" expanded="true" />
                 <element signature="e#309#333#0" expanded="true" />
                 <element signature="e#352#382#0" expanded="true" />
+                <element signature="e#500#533#0" expanded="true" />
+                <element signature="e#561#586#0" expanded="true" />
+                <element signature="e#613#637#0" expanded="true" />
+                <element signature="e#660#695#0" expanded="true" />
+                <element signature="e#813#843#0" expanded="true" />
+                <element signature="e#871#896#0" expanded="true" />
+                <element signature="e#923#947#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -125,12 +122,18 @@
       <file leaf-file-name="VisualizerActivity.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/com/visualizerpreferences/VisualizerActivity.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="54" column="107" lean-forward="false" selection-start-line="54" selection-start-column="107" selection-end-line="54" selection-end-column="107" />
+            <state relative-caret-position="544">
+              <caret line="140" column="169" lean-forward="false" selection-start-line="140" selection-start-column="169" selection-end-line="140" selection-end-column="169" />
               <folding>
                 <element signature="e#1510#1548#0" expanded="true" />
-                <element signature="e#1775#1815#0" expanded="true" />
-                <element signature="e#5007#5045#0" expanded="true" />
+                <element signature="e#1675#1718#0" expanded="true" />
+                <element signature="e#1851#1891#0" expanded="true" />
+                <element signature="e#2031#2071#0" expanded="true" />
+                <element signature="e#5263#5301#0" expanded="true" />
+                <element signature="e#5475#5518#0" expanded="true" />
+                <element signature="e#5590#5633#0" expanded="true" />
+                <element signature="e#5736#5776#0" expanded="true" />
+                <element signature="e#5851#5891#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -139,8 +142,8 @@
       <file leaf-file-name="bool.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/bool.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+            <state relative-caret-position="72">
+              <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -149,8 +152,8 @@
       <file leaf-file-name="strings.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
+            <state relative-caret-position="108">
+              <caret line="16" column="72" lean-forward="false" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
               <folding />
             </state>
           </provider>
@@ -164,6 +167,19 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
               <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_visualizer.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_visualizer.xml">
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -2061,7 +2077,7 @@
       <option name="ACTIVITY_CLASS" value="android.example.com.visualizerpreferences.VisualizerActivity" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522305546258" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522306574324" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -2134,7 +2150,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522305546258" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522306574325" />
       </method>
     </configuration>
     <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Instrumented Tests">
@@ -2182,7 +2198,7 @@
       </Profilers>
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522305546259" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522306574325" />
       </method>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -2365,7 +2381,7 @@
       <option name="ACTIVITY_CLASS" value="" />
       <method>
         <option name="Android.Gradle.BeforeRunTask" enabled="true" />
-        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522305546265" />
+        <option name="com.android.instantApps.provision.BeforeRunTask" enabled="true" clearCache="false" clearProvisionedDevices="false" myTimestamp="1522306574329" />
       </method>
     </configuration>
     <list size="2">
@@ -2530,6 +2546,13 @@
             <element signature="e#261#286#0" expanded="true" />
             <element signature="e#309#333#0" expanded="true" />
             <element signature="e#352#382#0" expanded="true" />
+            <element signature="e#500#533#0" expanded="true" />
+            <element signature="e#561#586#0" expanded="true" />
+            <element signature="e#613#637#0" expanded="true" />
+            <element signature="e#660#695#0" expanded="true" />
+            <element signature="e#813#843#0" expanded="true" />
+            <element signature="e#871#896#0" expanded="true" />
+            <element signature="e#923#947#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2540,8 +2563,14 @@
           <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="e#1510#1548#0" expanded="true" />
-            <element signature="e#1775#1815#0" expanded="true" />
-            <element signature="e#5007#5045#0" expanded="true" />
+            <element signature="e#1675#1718#0" expanded="true" />
+            <element signature="e#1851#1891#0" expanded="true" />
+            <element signature="e#2031#2071#0" expanded="true" />
+            <element signature="e#5263#5301#0" expanded="true" />
+            <element signature="e#5475#5518#0" expanded="true" />
+            <element signature="e#5590#5633#0" expanded="true" />
+            <element signature="e#5736#5776#0" expanded="true" />
+            <element signature="e#5851#5891#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -2598,17 +2627,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="76" lean-forward="false" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -2625,14 +2643,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="12" column="41" lean-forward="false" selection-start-line="12" selection-start-column="41" selection-end-line="12" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/com/visualizerpreferences/SettingsFragment.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="252">
@@ -2640,14 +2650,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/bool.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="44" lean-forward="false" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -2662,30 +2664,81 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_visualizer.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_settings.xml">
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="76" lean-forward="false" selection-start-line="6" selection-start-column="76" selection-end-line="6" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="16" column="72" lean-forward="false" selection-start-line="16" selection-start-column="72" selection-end-line="16" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/values/bool.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="4" column="47" lean-forward="false" selection-start-line="4" selection-start-column="47" selection-end-line="4" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/xml/pref_visulizer.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="54" lean-forward="false" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
+        <state relative-caret-position="377">
+          <caret line="22" column="53" lean-forward="false" selection-start-line="22" selection-start-column="53" selection-end-line="22" selection-end-column="53" />
           <folding>
             <element signature="e#209#237#0" expanded="true" />
             <element signature="e#261#286#0" expanded="true" />
             <element signature="e#309#333#0" expanded="true" />
             <element signature="e#352#382#0" expanded="true" />
+            <element signature="e#500#533#0" expanded="true" />
+            <element signature="e#561#586#0" expanded="true" />
+            <element signature="e#613#637#0" expanded="true" />
+            <element signature="e#660#695#0" expanded="true" />
+            <element signature="e#813#843#0" expanded="true" />
+            <element signature="e#871#896#0" expanded="true" />
+            <element signature="e#923#947#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/android/example/com/visualizerpreferences/VisualizerActivity.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="54" column="107" lean-forward="false" selection-start-line="54" selection-start-column="107" selection-end-line="54" selection-end-column="107" />
+        <state relative-caret-position="544">
+          <caret line="140" column="169" lean-forward="false" selection-start-line="140" selection-start-column="169" selection-end-line="140" selection-end-column="169" />
           <folding>
             <element signature="e#1510#1548#0" expanded="true" />
-            <element signature="e#1775#1815#0" expanded="true" />
-            <element signature="e#5007#5045#0" expanded="true" />
+            <element signature="e#1675#1718#0" expanded="true" />
+            <element signature="e#1851#1891#0" expanded="true" />
+            <element signature="e#2031#2071#0" expanded="true" />
+            <element signature="e#5263#5301#0" expanded="true" />
+            <element signature="e#5475#5518#0" expanded="true" />
+            <element signature="e#5590#5633#0" expanded="true" />
+            <element signature="e#5736#5776#0" expanded="true" />
+            <element signature="e#5851#5891#0" expanded="true" />
           </folding>
         </state>
       </provider>
