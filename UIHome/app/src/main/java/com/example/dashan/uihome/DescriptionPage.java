@@ -25,7 +25,7 @@ public class DescriptionPage extends AppCompatActivity {
 
         Intent intent=getIntent();
         String Title=intent.getExtras().getString("Title");
-        String Description=intent.getExtras().getString("Descrption");
+        String Description=intent.getExtras().getString("Description");
         String Categorie=intent.getExtras().getString("Categorie");
         int image=intent.getExtras().getInt("Thumbnail");
 
