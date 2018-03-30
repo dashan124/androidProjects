@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         mDb=dbHelper.getWritableDatabase();
         TestUtils.insertFakeData(mDb);
         Cursor cursor=getAllGuests();
-        mAdapter=new GuestListAdapter(this,cursor.getCount());
+        mAdapter=new GuestListAdapter(this,cursor);
 
         // Link the adapter to the RecyclerView
         waitlistRecyclerView.setAdapter(mAdapter);
