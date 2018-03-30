@@ -52,6 +52,16 @@ public class GuestListAdapter extends RecyclerView.Adapter<GuestListAdapter.Gues
         return mCursor.getCount();
     }
 
+    public void swapCursor(Cursor newcursor){
+        if(mCursor!=null){
+            mCursor.close();
+        }
+        mCursor=newcursor;
+        if(newcursor!=null){
+            this.notifyDataSetChanged();
+        }
+    }
+
 
     /**
      * Inner class to hold the views needed to display a single item in the recycler-view
