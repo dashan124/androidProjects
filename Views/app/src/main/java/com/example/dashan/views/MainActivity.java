@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         bookList.add(new Book("Romeo and Juliot","Love","Description",R.drawable.fourthbook));
         bookList.add(new Book("Hamlet","Categorie Book","Description",R.drawable.fifth));
         bookList.add(new Book("Little Red","Categorie Book","Description",R.drawable.sixbook));
-        
+
 
         RecyclerView recyclerView=(RecyclerView) findViewById(R.id.recyclerview_id);
         RecyclerViewAdapter myadapter=new RecyclerViewAdapter(this,bookList);
