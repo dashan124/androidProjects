@@ -20,7 +20,7 @@
                 android:layout_width="125dp"
                 android:layout_height="179dp"
                 android:background="#2d2d2d"
-                android:id="@+id/book_thumbnail"
+                android:id="@+id/description_page_image"
                 android:scaleType="centerCrop"/>
 
             <TextView
@@ -29,6 +29,7 @@
                 android:text="book Title"
                 android:layout_marginTop="10dp"
                 android:textSize="18sp"
+                android:id="@+id/description_page_title"
                 android:textStyle="bold"/>
             <TextView
                 android:layout_width="wrap_content"
@@ -36,6 +37,7 @@
                 android:text="Category"
                 android:background="#edeece"
                 android:padding="8dp"
+                android:id="@+id/description_page_categorie"
                 android:layout_marginTop="10dp"
                 />
             <TextView
@@ -43,6 +45,7 @@
                 android:layout_marginTop="10dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:id="@+id/description_page_description"
                 android:text="Description"
                 />
 
