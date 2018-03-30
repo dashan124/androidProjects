@@ -5,7 +5,7 @@
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.dashan.uihome.MainActivity"
+    tools:context="com.example.dashan.uihome.Home"
     android:padding="10dp"
     android:background="#fcfcfc"
     android:gravity="center"
