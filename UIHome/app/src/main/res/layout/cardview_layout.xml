@@ -4,7 +4,7 @@
     android:layout_height="190dp"
     android:clickable="true"
     android:foreground="?android:attr/selectableItemBackground"
-    android:id="@+id/bankcardID"
+    android:id="@+id/card_view_android"
     xmlns:cardview="http://schemas.android.com/apk/res-auto"
     android:layout_margin="5dp"
     cardview:cardCornerRadius="4dp"

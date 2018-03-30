@@ -1,12 +1,14 @@
 package com.example.dashan.uihome;
 
 import android.content.Context;
+import android.content.Intent;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
+import android.support.v7.widget.CardView;
 
 import java.util.List;
 
@@ -34,10 +36,24 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
     }
 
     @Override
-    public void onBindViewHolder(MyViewHolder holder, int position) {
+    public void onBindViewHolder(MyViewHolder holder, final int position) {
 
         holder.tv_book_title.setText(mData.get(position).getTitle());
         holder.book_image.setImageResource(mData.get(position).getThumbnail());
+
+        //set click listener for views
+        holder.cardView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent=new Intent(mContext,DescriptionPage.class);
+                intent.putExtra("BookTitle",mData.get(position).getTitle());
+                intent.putExtra("Description",mData.get(position).getTitle());
+                intent.putExtra("Categorie",mData.get(position).getCategory());
+                intent.putExtra("Thumbnail",mData.get(position).getThumbnail());
+                mContext.startActivity(intent);
+            }
+        });
+
     }
 
     @Override
@@ -50,10 +66,15 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
         TextView tv_book_title;
         ImageView book_image;
+        CardView cardView;
+
         public MyViewHolder(View itemView){
             super(itemView);
             tv_book_title=(TextView) itemView.findViewById(R.id.title_textview);
             book_image=(ImageView) itemView.findViewById(R.id.image_thumbnail);
+
+            cardView=(CardView) itemView.findViewById(R.id.card_view_android);
+
         }
     }
 }
