@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GoogleMapsApiDetailed</string>
+
+
+    <string name="google_maps_api_key_android">AIzaSyAXW-XSKSbkBWixt1fEqeaHrDPs-Udc2UY</string>
+</resources>
